@@ -6,11 +6,7 @@
 
 Sparse-view sampling in dual-energy computed tomography (DECT) significantly reduces radiation dose and increases imaging speed, yet is highly prone to artifacts. Although diffusion models have demonstrated potential in effectively handling incomplete data, most existing methods in this field focus on the image domain and lack global constraints, which consequently leads to insufficient reconstruction quality. In this study, we propose a dual-domain virtual-mask informed diffusion model for sparse-view reconstruction by leveraging the high inter-channel correlation in DECT. Specifically, the study designs a virtual mask and applies it to the high-energy and low-energy data to perform perturbation operations, thus constructing high-dimensional tensors that serve as the prior information of the diffusion model. In addition, a dual-domain collaboration strategy is adopted to integrate the information of the randomly selected high-frequency components in the wavelet domain with the information in the projection domain, for the purpose of optimizing the global structures and local details. The experimental results show that the method exhibits excellent performance on multiple datasets. Under 30-view sparse sampling conditions, VIP-DECT improves PSNR by at least 1.67 dB and enhances SSIM by 3.5%.
 
-![](D:\HuaweiMoveData\Users\肖瑶\Desktop\论文作图\Group 236.png)
-
-![](D:\HuaweiMoveData\Users\肖瑶\Desktop\论文作图\Group 237.png)
-
-![](D:\HuaweiMoveData\Users\肖瑶\Desktop\VIP-DECT method.png)
+![Fig. 5](https://github.com/yqx7150/VIP-DECT/blob/main/fig%206.svg)
 
 
 
@@ -20,13 +16,13 @@ To validate the performance of VIP-DECT, this section compares it with FBP (Bren
 
 ### Reconstruction Results Under Head DECT Dataset
 
-![]()![Group 427](D:\HuaweiMoveData\Users\肖瑶\Desktop\Group 427.png)
+![Fig. 6](https://github.com/yqx7150/VIP-DECT/blob/main/fig%206.svg)
 
 ### Reconstruction Results Under Mouse Thoracic DECT Dataset
 
-![](D:\HuaweiMoveData\Users\肖瑶\Desktop\Group 418.png)
+![Fig. 7](https://github.com/yqx7150/VIP-DECT/blob/main/fig%207.svg)
 
 ### Material Decomposition
 
-![](D:\HuaweiMoveData\Users\肖瑶\Desktop\Group 419.png)
+![Fig. 8](https://github.com/yqx7150/VIP-DECT/blob/main/fig%208.svg)
 
