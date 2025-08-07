@@ -6,7 +6,7 @@
 
 Sparse-view sampling in dual-energy computed tomography (DECT) significantly reduces radiation dose and increases imaging speed, yet is highly prone to artifacts. Although diffusion models have demonstrated potential in effectively handling incomplete data, most existing methods in this field focus on the image domain and lack global constraints, which consequently leads to insufficient reconstruction quality. In this study, we propose a dual-domain virtual-mask informed diffusion model for sparse-view reconstruction by leveraging the high inter-channel correlation in DECT. Specifically, the study designs a virtual mask and applies it to the high-energy and low-energy data to perform perturbation operations, thus constructing high-dimensional tensors that serve as the prior information of the diffusion model. In addition, a dual-domain collaboration strategy is adopted to integrate the information of the randomly selected high-frequency components in the wavelet domain with the information in the projection domain, for the purpose of optimizing the global structures and local details. The experimental results show that the method exhibits excellent performance on multiple datasets. Under 30-view sparse sampling conditions, VIP-DECT improves PSNR by at least 1.67 dB and enhances SSIM by 3.5%.
 
-![Fig. 5](https://github.com/yqx7150/VIP-DECT/blob/main/fig%206.svg)
+![Fig. 5](https://github.com/yqx7150/VIP-DECT/blob/main/VIP-DECT%20method.svg)
 
 
 
